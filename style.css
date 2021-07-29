@@ -1,0 +1,85 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color:#c9d2db;
+    font-family: 'Teko', sans-serif;
+    min-height: 100vh;
+
+}
+
+.tertiary-header{
+    font-size: 3.8rem;
+    color: #52b69a;
+}
+
+.nav{
+    background-color: #f8f9fa;
+    padding: 1.5rem 0;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 1px 10px 15px 0px rgba(0,0,0,0.45);
+    position: relative;
+}
+
+.link-group{
+    display: flex;
+    justify-content: space-around;
+    width: 20rem;
+    list-style: none;
+}
+
+.link:link,
+.link:visited{
+    text-decoration: none;
+    font-size: 3.8rem;
+    color: #168aad;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 70rem;
+    background-color: #212529;
+    text-align: center;
+    padding: 2rem;
+}
+
+.secondary-header{
+    font-size: 4.5rem;
+    color:#f8f9fa ;
+
+}
+
+.btn {
+    border: none;
+    padding: 1rem 3rem;
+    background-color: #168aad;
+    cursor: pointer;
+    transition: all .3s;
+    color: #f8f9fa;
+
+}
+
+.btn:active{
+    transform: scale(.9);
+}
+
+.btn-hero{
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+    font-size: 3.5rem;
+    border-radius: 100px;
+}
